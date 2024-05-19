@@ -1,0 +1,48 @@
+body { font-family: 'cairo';  background:rgb(255, 255, 255); }
+    p { color: rgb(0, 0, 0); }
+    .menu { background-color: #2f2f7e; }
+    .footer p { color: #f5f5f5; }
+    .menu { background-color: #2f2f7e;
+        overflow: auto; } .main {
+        overflow:auto; background-color: #f5f5f5; }
+        .photos {
+        overflow:auto; background-color: #f3f3f5; }
+        .footer {
+        overflow:auto; background-color: #777777; }
+        .main {
+            overflow: auto; text-align: center; background-color: #f5f5f5; padding-top: 20px; padding-bottom: 20px;
+            }
+            .photos {
+            overflow: auto; padding-top: 20px; padding-bottom: 40px; text-align: center; background-color: #dedfea;
+            }
+            .footer {
+            overflow: auto; padding-top: 20px; padding-bottom: 20px; text-align: center; background-color: #a7a7a8;
+            }
+            .photos img { border-style: solid; border-width: 2px; border-color: #04066b; border-radius: 6px; margin: 2px; object-fit: cover; object-position: top;
+            }.menu ul { text-align: center; padding-top: 20px; padding-bottom: 20px; text-decoration: none; }
+            .menu li {
+            display: inline-block; text-align: center; }
+            .menu li a {
+            display: inline-block; height: auto; width: 150px; color: #000000; background-color: #f5f5f5; padding: 10px; margin: 4px; text-align: center; font-size: 18px; font-weight: bold; text-decoration: none; border-radius: 4px; }
+            .menu li a:hover {
+            background-color: #99aed6; }
+            .footer ul { text-align: center; padding-top: 10px; padding-bottom: 10px; text-decoration: none;
+            }
+            .footer li {
+            display: inline-block; text-align: center;
+            }
+            .footer li a {
+            display: inline-block; height: auto; width: auto; color: #000000; background-color: #f5f5f5; padding: 10px; margin: 4px; text-align: center; font-size: 16px; font-weight: bold; text-decoration: none;
+            }
+            .footer li a:hover {
+            background-color: #99aed6; }
+            h1 {
+                color: #2f2f7e; font-weight: "Alarabiya Font"; font-size: 36px; }
+                .main h2 {
+                overflow: auto; margin-top: 40px; margin-left: auto; margin-right: auto; width: 200px; padding: 10px; background-color: #a7a7a8; color: #2f2f7e; font-weight: bold; text-align: center; border-radius: 30px; }
+                .photos h2 {
+                color: #2f2f7e; font-size: 28px; }
+                .footer h2{ 
+                color: #2f2f7e; }
+                .footer p {
+                color: #fefefe; }
